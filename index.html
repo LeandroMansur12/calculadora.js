@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    
+
+    <h1 class="titulo"> Calculadora </h1>
+    <!--tabela da calculadora -->
+    <table class = "tabela">
+        <tr class =" tabeInit">
+            <td  class="reset" onclick="reset()" >on</td>
+            <td  class="reset" onclick="back()" >back</td>
+        </tr>
+    <tr class =" tabeInit">
+        <td class ="numeros" onclick="insert('1')">1</td>
+        <td class ="numeros" onclick="insert('2')">2</td>
+        <td class ="numeros" onclick="insert('3')">3</td>
+        <td class ="divisao" onclick="insert('/')">/</td>
+    </tr>
+    <tr class =" tabeInit">
+        <td class ="numeros" onclick="insert('4')">4</td>
+        <td class ="numeros" onclick="insert('5')">5</td>
+        <td class ="numeros" onclick="insert('6')">6</td>
+        <td class ="multiplicacao" onclick="insert('*')">*</td>
+    </tr>
+    <tr class =" tabeInit">
+        <td class ="numeros" onclick="insert('7')">7</td>
+        <td class ="numeros" onclick="insert('8')">8</td>
+        <td class ="numeros" onclick="insert('9')">9</td>
+        <td class ="soma" onclick="insert('+')">+</td>
+    </tr>
+    <tr class="tabeInit">
+        <td class="numeros" onclick ="insert('0')">0</td>
+        <td class="igual" onclick="calcular()">=</td>
+        <td class="numeros" onclick="insert('.')"> .</td>
+
+        <td class ="subtracao" onclick="insert('-')" >-</td>
+
+    </tr>
+    <hr>
+   
+
+    
+    </table>
+
+
+    <p class="resultado">  </p> 
+    <script src="index.js"></script>
+</body>
+</html>

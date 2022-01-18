@@ -1,0 +1,64 @@
+body{
+    background-color: darkgray;
+}
+
+.tabela{
+
+    background-color: darkslateblue;
+    width: 400px;
+    border-radius: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 90px;
+}
+
+.tabeInit:hover{
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.numeros, .multiplicacao, .soma, .subtracao, .divisao, .igual{
+    
+    cursor:pointer;
+     margin-left: 20px;
+    border-radius: 20px;
+    font-size: 80px;
+    width: 70px;
+    border: 2px solid black;
+
+}
+.tabela{
+    margin-left: 35%;
+}
+
+
+div{
+    border-color:darkblue;
+    border-width: 10px;
+    border-radius:200px;
+}
+.num{
+    font-size:70px;
+    border-radius:20px;
+}
+
+.resultado{
+    margin-top: 10px;
+    font-size: 100px;
+    background-color:blanchedalmond;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.reset{
+    cursor:pointer;
+    margin-left: 20px;
+   border-radius: 20px;
+   font-size: 40px;
+   width: 70px;
+   border: 2px solid black;
+}
